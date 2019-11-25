@@ -53,9 +53,9 @@ define(["jquery"], function($){
                 }, 500)
             }              
         }).mouseover(function(){
-            $(this).css("background", "url(../images/book_fanye_btn.png) 0 -49px no-repeat")
+            $(this).css("background", "url(./images/book_fanye_btn.png) 0 -49px no-repeat")
         }).mouseout(function(){
-            $(this).css("background", "url(../images/book_fanye_btn.png) 0 0 no-repeat")
+            $(this).css("background", "url(./images/book_fanye_btn.png) 0 0 no-repeat")
         })
         
         // 点击下一页
