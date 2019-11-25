@@ -1,0 +1,403 @@
+@charset "UTF-8";
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, input {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: '微软雅黑';
+  font-size: 12px;
+  overflow: scroll; }
+
+ul, ol, dl, li {
+  list-style: none; }
+
+i, em {
+  font-style: normal; }
+
+b, strong {
+  font-weight: normal; }
+
+u, a {
+  text-decoration: none; }
+
+a {
+  color: #000; }
+
+img {
+  border: none; }
+
+#headerBox {
+  font: 12px 'Hiragino Sans GB',"simsun","Arial";
+  color: #646464;
+  min-width: 1200px;
+  background-color: #fff;
+  font-family: "Microsoft YaHei"; }
+
+#headerBox #tools {
+  width: 100%;
+  border-bottom: 1px solid #f2f2f2;
+  background-color: #f9f9f9;
+  font-family: "MicsoftYaHei"; }
+  #headerBox #tools .ddtools {
+    width: 1200px;
+    height: 34px;
+    line-height: 34px;
+    margin: 0 auto; }
+    #headerBox #tools .ddtools a {
+      color: #646464; }
+    #headerBox #tools .ddtools .send_ad {
+      float: left;
+      margin-top: 2px; }
+      #headerBox #tools .ddtools .send_ad a {
+        display: block;
+        _display: inline-block;
+        position: relative;
+        line-height: 22px;
+        height: 22px;
+        background: url("http://img63.ddimg.cn/upload_img/00459/home/head_sprite.png") no-repeat right -302px;
+        padding: 4px 22px 0 9px; }
+    #headerBox #tools .ddtools ul {
+      float: right; }
+      #headerBox #tools .ddtools ul li {
+        float: left;
+        height: 22px;
+        padding-top: 7px;
+        line-height: 21px;
+        background: url("http://img63.ddimg.cn/upload_img/00459/home/head_sprite.png") no-repeat left -283px; }
+        #headerBox #tools .ddtools ul li a {
+          display: block;
+          line-height: 21px;
+          padding: 0 7px 0 8px; }
+        #headerBox #tools .ddtools ul li .select_nav {
+          padding-right: 27px;
+          background: url("http://img63.ddimg.cn/upload_img/00459/home/head_sprite.png") no-repeat right -307px; }
+    #headerBox #tools .ddtools .sign_up {
+      float: right;
+      margin-right: 4px; }
+      #headerBox #tools .ddtools .sign_up .sign_red {
+        color: #ff2832; }
+        #headerBox #tools .ddtools .sign_up .sign_red .ww {
+          padding-left: 5px;
+          display: inline-block; }
+
+#headerBox .logo {
+  width: 100%;
+  border-bottom: 4px solid #ff2832;
+  height: 100px; }
+  #headerBox .logo .logo_box {
+    width: 960px;
+    margin: 0 auto; }
+    #headerBox .logo .logo_box div {
+      padding: 20px 0 0 15px; }
+
+#headerBox .content {
+  width: 960px;
+  margin: 0 auto;
+  font-family: "MicsoftYaHei"; }
+  #headerBox .content .title {
+    line-height: 36px;
+    height: 36px;
+    margin-top: 10px; }
+    #headerBox .content .title li {
+      text-align: center;
+      float: left; }
+    #headerBox .content .title .f1 {
+      text-align: left;
+      width: 202px; }
+      #headerBox .content .title .f1 a {
+        border-color: #ff2832;
+        display: inline-block;
+        width: 12px;
+        height: 12px;
+        border: 1px solid #bcbcbc;
+        text-decoration: none;
+        border-radius: 3px;
+        font-size: 0;
+        line-height: 0;
+        overflow: hidden;
+        margin: 0 10px 0 0;
+        vertical-align: text-bottom; }
+    #headerBox .content .title .f2 {
+      text-align: left;
+      width: 280px; }
+    #headerBox .content .title .f3, #headerBox .content .title .f4, #headerBox .content .title .f5 {
+      width: 130px; }
+    #headerBox .content .title .f6 {
+      width: 70px; }
+  #headerBox .content .big_box {
+    width: 960px;
+    border: 1px solid #ccc;
+    background: #fafafa;
+    padding: 15px 0; }
+    #headerBox .content .big_box::after {
+      content: "";
+      display: block;
+      height: 0px;
+      clear: both;
+      overflow: hidden;
+      visibility: hidden; }
+    #headerBox .content .big_box .com {
+      width: 958px;
+      height: 100px;
+      background: #fafafa;
+      padding: 30px 0 10px 0; }
+      #headerBox .content .big_box .com a, #headerBox .content .big_box .com span, #headerBox .content .big_box .com p, #headerBox .content .big_box .com div {
+        font-family: "MicsoftYaHei"; }
+      #headerBox .content .big_box .com li {
+        float: left;
+        margin-right: 10px;
+        height: 100px; }
+      #headerBox .content .big_box .com .c1 {
+        width: 42px;
+        text-align: center; }
+        #headerBox .content .big_box .com .c1 a {
+          display: inline-block;
+          width: 12px;
+          height: 12px;
+          margin-top: 44px;
+          border: 1px solid #bcbcbc;
+          border-radius: 3px; }
+      #headerBox .content .big_box .com .c2 img {
+        height: 100px;
+        display: block; }
+      #headerBox .content .big_box .com .c3 {
+        width: 310px;
+        line-height: 18px;
+        height: 85px;
+        padding-top: 15px;
+        overflow: hidden; }
+      #headerBox .content .big_box .com .c4 {
+        width: 130px;
+        text-align: center;
+        padding-top: 15px;
+        height: 85px; }
+      #headerBox .content .big_box .com .c5 {
+        width: 130px;
+        text-align: center;
+        padding-top: 12px;
+        height: 88px; }
+        #headerBox .content .big_box .com .c5 div {
+          width: 80px;
+          margin: 0 auto;
+          border: 1px solid #ccc; }
+          #headerBox .content .big_box .com .c5 div::after {
+            content: "";
+            display: block;
+            height: 0px;
+            clear: both;
+            overflow: hidden;
+            visibility: hidden; }
+          #headerBox .content .big_box .com .c5 div input {
+            width: 40px;
+            height: 20px;
+            float: left;
+            text-align: center;
+            border: 0; }
+          #headerBox .content .big_box .com .c5 div span {
+            float: left;
+            width: 20px;
+            height: 21px;
+            background: #e6dada;
+            line-height: 20px;
+            cursor: pointer; }
+      #headerBox .content .big_box .com .c6 {
+        width: 90px;
+        text-align: center;
+        padding-top: 10px;
+        height: 85px;
+        color: #f04d4d; }
+      #headerBox .content .big_box .com .c7 {
+        width: 90px;
+        margin: 0;
+        text-align: center;
+        padding-top: 15px;
+        height: 85px; }
+        #headerBox .content .big_box .com .c7 a {
+          display: block; }
+          #headerBox .content .big_box .com .c7 a:hover {
+            text-decoration: underline;
+            color: #ff2832;
+            cursor: pointer; }
+        #headerBox .content .big_box .com .c7 .del {
+          margin-top: 5px; }
+      #headerBox .content .big_box .com i {
+        float: left;
+        width: 900px;
+        height: 1px;
+        overflow: hidden;
+        background: #f1eeee;
+        margin: 20px 0 0 30px; }
+  #headerBox .content .addsun {
+    width: 960px;
+    height: 72px;
+    margin: 50px auto;
+    padding: 0 62px;
+    background: url(../images/shopping_total.png) 0 center no-repeat;
+    position: relative;
+    left: -62px; }
+    #headerBox .content .addsun .p1 {
+      float: right;
+      margin: 18px 0 0 0;
+      width: 530px;
+      height: 50px;
+      position: relative; }
+      #headerBox .content .addsun .p1 .hh {
+        padding-right: 30px;
+        line-height: 24px;
+        float: right; }
+        #headerBox .content .addsun .p1 .hh p {
+          float: right;
+          margin-right: 20px;
+          line-height: 50px; }
+          #headerBox .content .addsun .p1 .hh p .s1 {
+            width: 114px;
+            text-align: right;
+            padding: 0 8px 0 0;
+            display: inline-block; }
+          #headerBox .content .addsun .p1 .hh p .s2 {
+            font-size: 18px;
+            color: #ff2832;
+            display: inline-block; }
+        #headerBox .content .addsun .p1 .hh a {
+          float: right;
+          display: block;
+          width: 100px;
+          height: 38px;
+          font: bold 18px/38px "Microsoft Yahei";
+          color: #fff;
+          background-color: #ff2832;
+          border-radius: 2px;
+          text-align: center;
+          margin-top: 4px; }
+    #headerBox .content .addsun .p2 {
+      float: left;
+      line-height: 58px;
+      width: 430px;
+      height: 58px;
+      position: relative; }
+      #headerBox .content .addsun .p2 #a1 {
+        border-color: #ff2832;
+        display: inline-block;
+        width: 12px;
+        height: 12px;
+        border: 1px solid #bcbcbc;
+        background-color: #fff;
+        text-decoration: none;
+        border-radius: 3px;
+        font-size: 0;
+        font-size: 0;
+        line-height: 0;
+        overflow: hidden;
+        margin: 0 10px 0 0;
+        vertical-align: text-bottom; }
+      #headerBox .content .addsun .p2 .a2 {
+        margin-left: 28px; }
+      #headerBox .content .addsun .p2 span {
+        margin-left: 80px; }
+        #headerBox .content .addsun .p2 span i {
+          color: #f83131; }
+
+#headerBox .goods {
+  border: 1px solid #dcdcdc;
+  padding: 10px 0 15px; }
+  #headerBox .goods .po {
+    line-height: 36px;
+    height: 36px;
+    padding-left: 25px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #323232; }
+  #headerBox .goods .kk {
+    height: 512px;
+    position: relative; }
+    #headerBox .goods .kk .l1 {
+      position: absolute;
+      width: 34px;
+      height: 70px;
+      background: url(../images/arrow_ad.png);
+      background-position: 0px -112px;
+      top: 50%;
+      margin-top: -50px;
+      opacity: .8;
+      filter: alpha(opacity=80);
+      z-index: 9;
+      left: 0;
+      cursor: pointer; }
+    #headerBox .goods .kk .l2 {
+      right: 0;
+      background-position: -34px -112px;
+      position: absolute;
+      width: 34px;
+      height: 70px;
+      background-image: url(../images/arrow_ad.png);
+      top: 50%;
+      margin-top: -50px;
+      opacity: .8;
+      filter: alpha(opacity=80);
+      z-index: 9;
+      cursor: pointer; }
+    #headerBox .goods .kk .nday {
+      position: absolute;
+      right: 30px;
+      top: -23px; }
+      #headerBox .goods .kk .nday li {
+        float: left;
+        width: 8px;
+        height: 8px;
+        margin-left: 12px;
+        _display: inline;
+        overflow: hidden;
+        line-height: 36px;
+        font-size: 0;
+        background: #c2c2c2;
+        border-radius: 4px;
+        cursor: pointer; }
+      #headerBox .goods .kk .nday .active {
+        background: #f83131; }
+    #headerBox .goods .kk .fg {
+      padding: 5px 4px 0 14px;
+      width: 940px;
+      overflow: hidden;
+      height: 512px;
+      position: relative; }
+      #headerBox .goods .kk .fg .product_list {
+        position: absolute;
+        width: 10000px;
+        height: 512px;
+        left: -958px; }
+        #headerBox .goods .kk .fg .product_list .box {
+          width: 958px;
+          background: #fffdfd;
+          height: 512px;
+          float: left; }
+          #headerBox .goods .kk .fg .product_list .box ul {
+            width: 100%;
+            height: 100%; }
+            #headerBox .goods .kk .fg .product_list .box ul li {
+              width: 148px;
+              height: 250px;
+              float: left;
+              padding: 0 16px;
+              margin: 5px 10px 5px 0;
+              position: relative; }
+              #headerBox .goods .kk .fg .product_list .box ul li .wrap {
+                margin-top: 10px;
+                line-height: 20px;
+                width: 140px;
+                overflow: hidden;
+                white-space: nowrap; }
+              #headerBox .goods .kk .fg .product_list .box ul li p:last-child {
+                font-size: 16px;
+                color: #ff2832;
+                line-height: 32px; }
+              #headerBox .goods .kk .fg .product_list .box ul li .add_goods {
+                display: none;
+                width: 150px;
+                text-align: center;
+                line-height: 30px;
+                height: 30px;
+                position: absolute;
+                top: 120px;
+                color: #fff;
+                cursor: pointer;
+                background: rgba(221, 119, 124, 0.8); }
