@@ -2,11 +2,11 @@
     header('content-type:text/html;charset="utf-8"');
     $respont = array("code" => 0, "msg" => "");
 
-    $username = $_POST["username"];
+    $username = $_GET["username"];
 
-    $old = $_POST["oldpassword"];
+    $old = $_GET["oldpassword"];
 
-    $new = $_POST["newpassword"];
+    $new = $_GET["newpassword"];
 
     $str = md5(md5($old)."qingdao");
 

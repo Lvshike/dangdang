@@ -1,9 +1,9 @@
 <?php 
 	header('content-type:text/html;charset="utf-8"');
-	$username = $_POST["username"];
-	$password = $_POST["password"];
-	$repassword = $_POST["repassword"];
-	$date = $_POST["date"];
+	$username = $_GET["username"];
+	$password = $_GET["password"];
+	$repassword = $_GET["repassword"];
+	$date = $_GET["date"];
 	$respont = array("code" => 0,"message" => "");
 	if(!$username){
 		$respont["code"] = 1;

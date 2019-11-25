@@ -87,7 +87,7 @@
 
 				$("#submit").click(function(){
 					if(isyes){
-						$.post("../php/register.php", {
+						$.get("../php/register.php", {
 							username:$("input").eq(0).val(),
 							password:$("input").eq(1).val(),
 							repassword:$("input").eq(2).val(),

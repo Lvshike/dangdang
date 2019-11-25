@@ -1,8 +1,8 @@
 <?php 
 	header('content-type:text/html;charset="utf-8"');
 	$respont = array("code" => 0, "message" => "");
-	$username = $_POST["username"];
-	$password = $_POST["password"];
+	$username = $_GET["username"];
+	$password = $_GET["password"];
 
 	if(!$username){
 		$respont["code"] = 1;
