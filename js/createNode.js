@@ -79,9 +79,9 @@ define(["jquery"], function($){
             }
       
         }).mouseover(function(){
-            $(this).css("background", "url(../images/book_fanye_btn.png) -26px -49px no-repeat")
+            $(this).css("background", "url(./images/book_fanye_btn.png) -26px -49px no-repeat")
         }).mouseout(function(){
-            $(this).css("background", "url(../images/book_fanye_btn.png) -26px 0 no-repeat")
+            $(this).css("background", "url(./images/book_fanye_btn.png) -26px 0 no-repeat")
         })
     }   
 
