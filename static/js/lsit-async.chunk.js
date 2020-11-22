@@ -1,2 +1,2 @@
-(this.webpackJsonprct=this.webpackJsonprct||[]).push([[1],{29:function(n,t,e){"use strict";e.r(t);var s=e(0),c=e.n(s);console.log(c.a),t.default=function(){return console.log(undefined,"this"),c.a.createElement("div",null,"List")}}}]);
+(this.webpackJsonprct=this.webpackJsonprct||[]).push([[1],{29:function(e,n,t){"use strict";t.r(n);var s=t(0),c=t.n(s);n.default=function(){return console.log(undefined,"thisee"),console.log(c.a),c.a.createElement("div",null,"List")}}}]);
 //# sourceMappingURL=lsit-async.chunk.js.map
